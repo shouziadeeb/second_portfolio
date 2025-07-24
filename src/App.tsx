@@ -103,10 +103,7 @@ function App() {
           <div className="flex items-center justify-between h-16">
             {/* Logo */}
             <div className="flex items-center space-x-3">
-              <div className="relative">
-                <Gamepad2 className="w-8 h-8 text-cyan-400" />
-                <div className="absolute inset-0 w-8 h-8 bg-cyan-400/20 rounded-full animate-ping"></div>
-              </div>
+              <div className="relative"></div>
               <span className="text-xl font-bold bg-gradient-to-r from-cyan-400 to-purple-400 bg-clip-text text-transparent">
                 SHOUZAB
               </span>
@@ -818,7 +815,7 @@ function App() {
             <div className="flex flex-col justify-center">
               <div className="p-8 bg-gray-900/80 rounded-2xl border border-cyan-400/30 backdrop-blur-sm">
                 <h3 className="text-2xl font-bold text-cyan-400 mb-6 text-center">
-                  Social Links 
+                  Social Links
                 </h3>
 
                 <div className="flex justify-center space-x-6">
